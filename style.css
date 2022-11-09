@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap");
+* {
+  margin: 0px;
+  border: 0px;
+}
+
+body {
+  font-family: "Poppins";
+  background-color: #1f4788;
+}
+
+.container > h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.formblock {
+  margin: auto;
+  margin-top: 50px;
+  width: 400px;
+  height: 200px;
+  background-color: #1b98f5;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+#errorblock1,
+#errorblock2 {
+  display: none;
+  color: #e21717;
+}
+
+input {
+  margin: 10px 5px;
+  width: 380px;
+  height: 25px;
+  justify-content: center;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  width: 150px;
+  height: 30px;
+  margin: 20px 5px;
+  border-radius: 5px;
+  font-family: "Poppins";
+  font-size: 15px;
+  background-color: #003171;
+  color: #fff;
+}
+
+.cardcontainer {
+  width: 1000px;
+  margin: 50px auto;
+  display: grid;
+  row-gap: 10px;
+  grid-template-columns: repeat(5, 1fr);
+}
+.card {
+  width: 150px;
+  height: 150px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+a {
+  text-decoration: none;
+  font-size: 25px;
+  text-align: center;
+  grid-row: 2/5;
+  width: 148px;
+  color: #003171;
+  word-wrap: break-word;
+}
+
+.card > img {
+  height: 20px;
+  width: 20px;
+  margin-left: 120px;
+  margin-top: 10px;
+  grid-row: 1;
+}

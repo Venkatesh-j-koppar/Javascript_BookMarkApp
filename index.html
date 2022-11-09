@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookmark</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Book Mark App</h1>
+      <div class="formblock">
+        <p id="errorblock2" class="error">Input Error</p>
+
+        <form action="" onsubmit="validate()">
+          <label for="siteName">Enter Website Name</label>
+          <br />
+          <input type="text" name="siteName" id="nameinput" required />
+          <p id="errorblock1" class="error">Please Enter Proper Name</p>
+          <br />
+          <label for="siteUrl">Enter Site Url</label>
+          <br />
+          <input type="url" name="siteUrl" id="urlinput" required />
+          <button id="Addbtn" type="submit">ADD</button>
+        </form>
+      </div>
+      <div class="cardcontainer"></div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
